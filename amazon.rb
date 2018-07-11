@@ -17,4 +17,6 @@ def expensive_cart_items
   cart_items_prices = [12.43, 19.99, 3.49, 75.00]
   cart_items_prices > 15 == expensive
   expensive_cart_items_prices << 15
-  
+end 
+
+puts expensive_cart_items_prices
