@@ -4,7 +4,7 @@ def cart_items_prices_tax
   cart_items_prices_stax= []
   
   cart_items_prices.each do |cart_items_prices|
-  cart_items_prices_stax = cart_items_prices * 1.07
+  stax = cart_items_prices * 1.07
   cart_items_prices_stax << stax
   puts cart_items_prices_stax
 end
