@@ -25,4 +25,11 @@ end
 puts expensive_cart_items
 
 #3. Take the user's shopping cart and create a solution that gives the shopper a total price in thier basket
+cart_items_prices = [12.43, 19.99, 3.49, 75.00]
+total_price = 0
+cart_items_prices.each do |x|
+total_price += x
+total_price= cart_items_prices[0] + cart_items_prices[1] + cart_items_prices[2] + cart_items_prices[3]
+end
+puts total_price
   
