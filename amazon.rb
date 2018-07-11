@@ -20,7 +20,6 @@ def expensive_cart_items
   if x > 15
     expensive << x
 end 
-puts expensive_cart_items
 end 
 puts expensive_cart_items 
 
