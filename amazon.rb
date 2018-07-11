@@ -16,13 +16,14 @@ puts cart_items_prices_tax
 def expensive_cart_items
   cart_items_prices = [12.43, 19.99, 3.49, 75.00]
   if cart_items_prices.each do |cart_items_prices|
+    expensive_cart_items_prices= []
   expensive > 15
   expensive_cart_items_prices << 15
 end 
 puts expensive_cart_items_prices
 end 
 
-puts expensive_cart_items
+puts expensive_cart_items 
 
 #3. Take the user's shopping cart and create a solution that gives the shopper a total price in thier basket
 cart_items_prices = [12.43, 19.99, 3.49, 75.00]
