@@ -25,5 +25,4 @@ end
 puts expensive_cart_items
 
 #3. Take the user's shopping cart and create a solution that gives the shopper a total price in thier basket
-def total_shopping_cart
   
