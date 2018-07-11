@@ -18,7 +18,7 @@ def expensive_cart_items
   cart_items_prices = [12.43, 19.99, 3.49, 75.00]
   cart_items_prices.each do |x|
   if x > 15
-    expensive << x
+  expensive << x
 end 
 end 
 puts expensive_cart_items 
