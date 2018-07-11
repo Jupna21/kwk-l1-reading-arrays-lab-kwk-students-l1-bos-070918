@@ -15,7 +15,7 @@ puts cart_items_prices_tax
 #2: Create a new array of items that are above a certain price, an expensive array of items over $15
 def expensive_cart_items
   cart_items_prices = [12.43, 19.99, 3.49, 75.00]
-  if cart_items_prices > 15 == expensive
+  if cart_items_prices.each do > 15 == expensive
   expensive_cart_items_prices << 15
 end 
 puts expensive_cart_items_prices
