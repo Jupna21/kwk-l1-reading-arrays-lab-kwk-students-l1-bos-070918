@@ -8,5 +8,6 @@ def cart_items_prices_tax
   cart_items_prices_stax << stax
   puts cart_items_prices_stax
 end
+end
 
 puts cart_items_prices_tax
