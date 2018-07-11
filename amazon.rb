@@ -1,3 +1,4 @@
+#1: Create a new array with the sales tax included in each cart item price. Sales tax is 7%
 def cart_items_prices_tax
   cart_items_prices = [12.43, 19.99, 3.49, 75.00]
   
@@ -9,5 +10,10 @@ def cart_items_prices_tax
 end
 puts cart_items_prices_stax
 end
-
 puts cart_items_prices_tax
+
+#2: Create a new array of items that are above a certain price, an expensive array of items over $15
+def cart_items_prices
+  cart_items_prices = [12.43, 19.99, 3.49, 75.00]
+  
+  
