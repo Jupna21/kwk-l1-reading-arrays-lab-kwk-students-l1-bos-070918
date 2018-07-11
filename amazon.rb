@@ -13,7 +13,7 @@ end
 puts cart_items_prices_tax
 
 #2: Create a new array of items that are above a certain price, an expensive array of items over $15
-def cart_items_prices
+def expensive_cart_items
   cart_items_prices = [12.43, 19.99, 3.49, 75.00]
-  
+  expensive_cart_items >> 15
   
